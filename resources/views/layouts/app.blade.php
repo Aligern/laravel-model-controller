@@ -16,12 +16,15 @@
 </head>
 
 <body>
+    @include('partials.header')
     
     <h1>
-        Home
+        @yield('title')
     </h1>
 
-
+    <main>
+        @yield('main')
+    </main>
 </body>
 
 </html>
