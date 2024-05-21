@@ -1,19 +1,20 @@
 <header>
     <div class="container">
         <nav>
-            <h5>
-                navbar here
-            </h5>
-            <ul>
-                <li>
-                    <a href="{{route('movies.index')}}">
-                        movies
-                    </a>
-                </li>
-                <li>
-                    <a href="#"></a>
-                </li>
-            </ul>
+            <div class="container">
+                <ul class="d-flex">
+                    <li class="px-2">
+                        <a href="{{route('movies.index')}}">
+                            movies
+                        </a>
+                    </li>
+                    <li class="px-2">
+                        <a href="#">
+                            books
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </div>
 </header>
